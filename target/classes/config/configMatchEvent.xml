@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<class>
+    <!--
+    Plik podstawowej szansy na wystapienie eventu
+    jak i na jego podstawową szanse na powodzenie
+    -->
+    <strzał>
+        <gol>20</gol>
+        <pudlo>20</pudlo>
+        <slupek>10</slupek>
+        <poprzeczek>5</poprzeczek>
+        <obrona_bramkarza>45</obrona_bramkarza>
+    </strzał>
+    <obrona_bramkarza>
+        <wybicie_poza_pole_karne>20</wybicie_poza_pole_karne>
+        <wybicie_bliskie>20</wybicie_bliskie>
+        <zlapanie_przez_bramkarza>20</zlapanie_przez_bramkarza>
+        <wybicie_na_rog>10</wybicie_na_rog>
+        <wybicie_na_aut>10</wybicie_na_aut>
+    </obrona_bramkarza>
+    <wslizg>
+        <odebranie_pilki>30</odebranie_pilki>
+        <faul>15</faul>
+        <przeciwnik_zrobil_unik>40</przeciwnik_zrobil_unik>
+    </wslizg>
+    <faul>
+        <sam_wolny>40</sam_wolny>
+        <wolny_z_zolta_kartka>10</wolny_z_zolta_kartka>
+        <wolny_z_czerwona_kartka>5</wolny_z_czerwona_kartka>
+    </faul>
+    <kontra>
+        <strzal>40</strzal>
+        <strata_pilki>40</strata_pilki>
+    </kontra>
+</class>

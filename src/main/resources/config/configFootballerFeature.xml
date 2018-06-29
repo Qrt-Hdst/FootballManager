@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<class>
+    <!--
+    Cechy Pilkarzy
+    -->
+    <Strzelec>5</Strzelec>
+    <Stoper>5</Stoper>
+    <Golkiper>5</Golkiper>
+    <Rozgrywajacy>5</Rozgrywajacy>
+</class>
