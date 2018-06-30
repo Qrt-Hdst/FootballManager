@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc7a79ac-751b-44fe-aa2d-7f1aaea84008" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Controller/MainController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Controller/StartScreenController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/FXML/MainScreen.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/FXML/StartScreen.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/main.class" afterPath="$PROJECT_DIR$/target/classes/main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/configFootballerFeature.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/configFootballerFeature.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config/configMatchEvent.xml" afterPath="$PROJECT_DIR$/src/main/resources/config/configMatchEvent.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/configFootballerFeature.xml" afterPath="$PROJECT_DIR$/target/classes/config/configFootballerFeature.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/config/configMatchEvent.xml" afterPath="$PROJECT_DIR$/target/classes/config/configMatchEvent.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/main.java" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-    </list>
+    <list default="true" id="cc7a79ac-751b-44fe-aa2d-7f1aaea84008" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,10 +34,10 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
               <folding>
-                <marker date="1530363658340" expanded="true" signature="1003:1236" ph="..." />
-                <marker date="1530363658340" expanded="true" signature="1003:1222" ph="..." />
+                <marker date="1530364766488" expanded="true" signature="1003:1222" ph="..." />
+                <marker date="1530364766488" expanded="true" signature="1003:1236" ph="..." />
               </folding>
             </state>
           </provider>
@@ -58,8 +46,8 @@
       <file leaf-file-name="StartScreenController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Controller/StartScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+            <state relative-caret-position="357">
+              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,7 +62,7 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -564,10 +552,10 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding>
-            <marker date="1530363658340" expanded="true" signature="1003:1236" ph="..." />
-            <marker date="1530363658340" expanded="true" signature="1003:1222" ph="..." />
+            <marker date="1530364766488" expanded="true" signature="1003:1222" ph="..." />
+            <marker date="1530364766488" expanded="true" signature="1003:1236" ph="..." />
           </folding>
         </state>
       </provider>
@@ -578,7 +566,7 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -607,8 +595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Controller/StartScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
