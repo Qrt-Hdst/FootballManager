@@ -1,10 +1,54 @@
 <?xml version="1.0"?>
 <class>
     <!--
-    Cechy Pilkarzy
+    Cechy Pilkarzy wewnatrz powinno byc co one daja ,
+    np strzelec wyborowy daje +20 do strzalu
     -->
     <Strzelec>5</Strzelec>
     <Stoper>5</Stoper>
     <Golkiper>5</Golkiper>
     <Rozgrywajacy>5</Rozgrywajacy>
+
+    <!--
+    Zródło:https://www.fifaindex.com/pl/player/158023/lionel-messi/
+
+    Umiejetnosci pilkarza raczej bym widzial
+    w bazie danych - może MySQL, może coś innego - ale raczej SQLOracle
+    bym se darował -
+    -Umiejętności Piłkarskie
+        Kontr. piłki
+        Drybling
+    -Podanie
+        -Dośrodkow.
+        -Podania
+        -Długie pod.
+    -Obrona
+        -Krycie
+        -Wslizg
+        -Odbiór pilki
+     -Fizyczne
+        -Przyspiesz.
+        -Wytrzymałość
+        -Siła
+        -Równowaga
+        -Szybk. biegu
+        -Zwinność
+        -Skoczność
+     -Umysłowe
+        -Agresja
+        -Reakcja
+        -Ust. w ataku
+        -Przechwyty
+        -Orientacja
+        -Opanowanie
+     -Strzelenia
+        -Główki
+        -Siła strzału
+        -Wykończenie
+        -Dalekie strz.
+        -Podkręcenie
+        -Rzut wolny
+        -Rzuty karne
+        -Woleje
+    -->
 </class>
