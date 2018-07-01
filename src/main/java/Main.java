@@ -30,8 +30,7 @@ public class Main  extends Application{
         //ładuje dane z loadera na StackPane(StackPane to layout)
         StackPane stackPane =loader.load();
         Color color = Color.rgb(0, 0, 0, 1);
-        BackgroundFill fill = new BackgroundFill(color, CornerRadii.EMPTY,
-                Insets.EMPTY);
+        BackgroundFill fill = new BackgroundFill(color, CornerRadii.EMPTY, Insets.EMPTY);
         Background background = new Background(fill);
         stackPane.setBackground(background);
         //tworze nową scene do której wkładam stworzony wcześniej stackpane

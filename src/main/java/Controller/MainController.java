@@ -21,14 +21,23 @@ public class MainController {
     public void initialize(){
         FXMLLoader loader = new FXMLLoader(this.getClass().getResource("/FXML/StartScreen.fxml"));
         Pane pane = null;
-
         try {
             pane = loader.load();
         } catch(IOException e){
             e.printStackTrace();
         }
-        mainStackPane.getChildren().add(pane);
+        StartScreenController startScreenController = loader.getController();
+        startScreenController.setMainController(this);
+        //NewGameScreenController newGameScreenController = loader.getController();
+        //newGameScreenController.setMainController(this);
+        //mainStackPane.getChildren().add(pane);
+        setScreen(pane);
     }
 
+    public void setScreen(Pane pane) {
+        mainStackPane.getChildren().clear();
+        mainStackPane.getChildren().add(pane);
+
+    }
 
 }
