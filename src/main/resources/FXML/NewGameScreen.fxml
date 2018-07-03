@@ -18,30 +18,53 @@
             <Image url="@../graphics/KuszczakBackground.PNG" />
          </image>
       </ImageView>
-      <VBox fx:id="vboxSetTrainer" layoutX="31.0" layoutY="102.0" prefHeight="137.0" prefWidth="203.0" style="-fx-background-color: white;">
+      <VBox fx:id="vboxSetTrainer" layoutX="31.0" layoutY="74.0" prefHeight="165.0" prefWidth="487.0" style="-fx-background-color: white;">
          <children>
-            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+            <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Label text="Imie::" />
-                  <TextField />
+                  <Label text="Dane Trenera" />
                </children>
             </HBox>
-            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+            <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Label text="Nazwisko:" />
-                  <TextField />
-               </children>
-            </HBox>
-            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Label text="Liga" />
-                  <ComboBox prefWidth="150.0" />
-               </children>
-            </HBox>
-            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
-               <children>
-                  <Label text="Zespół" />
-                  <ComboBox prefWidth="150.0" />
+                  <VBox prefHeight="23.0" prefWidth="260.0">
+                     <children>
+                        <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                           <children>
+                              <Label text="Imie::" />
+                              <TextField />
+                           </children>
+                        </HBox>
+                        <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+                           <children>
+                              <Label text="Nazwisko:" />
+                              <TextField />
+                           </children>
+                        </HBox>
+                        <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <Label text="Liga" />
+                              <ComboBox prefWidth="150.0" />
+                           </children>
+                        </HBox>
+                        <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                           <children>
+                              <Label text="Zespół" />
+                              <ComboBox prefWidth="150.0" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="23.0" prefWidth="214.0">
+                     <children>
+                        <Label text="Wybór zdjęcia" />
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../graphics/DefaultTrainer.PNG" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
                </children>
             </HBox>
          </children>
