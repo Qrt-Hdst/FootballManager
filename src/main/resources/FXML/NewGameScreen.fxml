@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
@@ -15,20 +18,46 @@
             <Image url="@../graphics/KuszczakBackground.PNG" />
          </image>
       </ImageView>
-      <VBox fx:id="vboxSetTrainer" layoutX="50.0" layoutY="60.0" prefHeight="93.0" prefWidth="214.0">
+      <VBox fx:id="vboxSetTrainer" layoutX="31.0" layoutY="102.0" prefHeight="137.0" prefWidth="203.0" style="-fx-background-color: white;">
          <children>
-            <HBox prefHeight="100.0" prefWidth="200.0">
+            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Label text="Label" />
+                  <Label text="Imie::" />
+                  <TextField />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Nazwisko:" />
+                  <TextField />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Liga" />
+                  <ComboBox prefWidth="150.0" />
+               </children>
+            </HBox>
+            <HBox alignment="TOP_RIGHT" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Zespół" />
+                  <ComboBox prefWidth="150.0" />
                </children>
             </HBox>
          </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+         </padding>
       </VBox>
       <HBox layoutX="217.0" layoutY="291.0" prefHeight="25.0" prefWidth="203.0">
          <children>
-            <Button fx:id="dalejButton" mnemonicParsing="false" onAction="#nextMethod" prefHeight="25.0" prefWidth="103.0" text="Dalej" />
-            <Button fx:id="powrotButton" mnemonicParsing="false" onAction="#powrotMethod" prefHeight="25.0" prefWidth="99.0" text="Powrót" />
+            <Button fx:id="nextButton" mnemonicParsing="false" onAction="#nextMethod" prefHeight="25.0" prefWidth="103.0" text="Dalej" />
+            <Button fx:id="backButton" mnemonicParsing="false" onAction="#backMethod" prefHeight="25.0" prefWidth="99.0" text="Powrót" />
          </children>
       </HBox>
+      <Label id="h1" alignment="TOP_CENTER" contentDisplay="BOTTOM" layoutX="173.0" layoutY="14.0" prefHeight="71.0" prefWidth="292.0" style="-fx-font-size: 45;" text="Nowa Gra" textFill="#cde1ff" />
    </children>
 </Pane>

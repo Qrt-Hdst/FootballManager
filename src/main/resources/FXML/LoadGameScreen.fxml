@@ -26,8 +26,8 @@
       </VBox>
       <HBox layoutX="224.0" layoutY="318.0" prefHeight="17.0" prefWidth="214.0">
          <children>
-            <Button fx:id="DalejButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Dalej" />
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" text="Button" />
+            <Button fx:id="dalejButton" mnemonicParsing="false" onAction="#nextMethod" onDragDetected="#backMethod" prefHeight="25.0" prefWidth="104.0" text="Dalej" />
+            <Button fx:id="backButton" mnemonicParsing="false" prefHeight="25.0" prefWidth="99.0" text="Powrót" />
          </children>
       </HBox>
    </children>
